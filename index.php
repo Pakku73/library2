@@ -42,7 +42,7 @@
             </button>
             
             <select name="cars" id="categorySelect">
-                <option value="none"></option>
+                <option value="">Selectionner la catégorie</option>
                 <option value="fantasy">Fantasy</option>
                 <option value="saab">Science-Fiction</option>
                 <option value="mercedes">Romance</option>

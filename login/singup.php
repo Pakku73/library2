@@ -85,7 +85,7 @@ $con->close();
 
         <div class="singinBtn">
             <a href="singin.php">
-                <button class="Btn" href="singin.php">
+                <button class="Btn">
                     <span>Sing in</span>
                 </button>
             </a>
