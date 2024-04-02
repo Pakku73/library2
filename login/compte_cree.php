@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style_2.css">
     <title>Document</title>
 </head>
-<body class="validPages">
+<body id="cree" class="validPages">
     <h1>Félicitation ! Votre compte est créé</h1>
     <a href='singin.php'><button>Connectez-vous</button></a>
 </body>

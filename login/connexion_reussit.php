@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style_2.css">
     <title>Document</title>
 </head>
-<body class="validPages">
+<body id="reussit" class="validPages">
     <h1>Bravo ! Vous etes connecté</h1>
     <a href='singin.php'><button>Log out</button></a>
 </body>

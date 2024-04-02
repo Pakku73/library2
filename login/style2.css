@@ -27,6 +27,11 @@ body {
     font-family: "Titillium Web";
 }
 
+#cree, #reussit{
+    color: white;
+    background-image: url(../assets/ayan-nag-lava-factory-by-ayan-nag-lowres.jpg);
+}
+
 .validPages {    
     margin-top: 20%;
     display: flex;
