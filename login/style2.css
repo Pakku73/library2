@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  /* background-color: rgb(36, 36, 112); */
+  /* background-color: rgb(54, 54, 54); */
+  /* background: linear-gradient(rgb(188, 16, 27) 1.1%,rgb(38, 38, 38) 130.5%); */
+  background-repeat: no-repeat;
+  font-family: "Titillium Web";
+}
+
+#singup{
+    margin: 0;
+    background-image: url(../assets/anya-jo-elvidge-41.jpg);
+    font-family: "Titillium Web";
+}
+
+#singin{
+    margin: 0;
+    background-image: url(../assets/sviatoslav-gerasimchuk-lava-city.jpg);
+    font-family: "Titillium Web";
+}
+
+.validPages {    
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first{
+    justify-content: end;
+
+    .nav{
+        margin-top: 1vh;
+
+        a{
+            padding: 2vh;
+            text-decoration: none;
+            color: orange;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.msg {
+    display: flex;
+    justify-content: center;
+}
+
+.msgp {
+    color: #a52a2a;
+}
+
+.main_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5.2%;
+}
+
+.container {
+    margin: 0, auto;
+    width: 16vw;
+    height: 24vw;
+    padding: 1vh;
+    padding-bottom: 2vh;
+    background-color: rgb(54, 54, 54);
+    border: solid 2px orange;
+}
+
+.formulaire{
+    margin-top: 6%;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    padding: 4px;
+    color: violet;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+  
+input {
+    margin-bottom: 16px;
+    padding: 2.8%;
+    width: 60%;
+    border: none;
+    border-radius: 20px;
+    font-size: 80%;
+}
+
+input:focus {
+    border-radius: 4px;
+    border: 2px solid violet;
+    outline: none;
+}
+
+button {
+    margin-top: 16px;
+    width: 8vw;
+    height: 2vw;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(142, 17, 142);
+    font-weight: 400;
+    font-size: 2vh;
+    color: white;
+}
+  
+button:hover {
+background-color: rgb(142, 17, 142);
+border: 2px solid orange;
+}
+
+.singinBtn {
+display: flex;
+justify-content: center;
+}
+
+.Btn {
+margin-top: 4vw;
+background-color: orange;
+width: 8vw;
+height: 2vw;
+border: none;
+border-radius: 20px;
+font-weight: 400;
+font-size: 2vh;
+color: white;
+}
+
+.Btn:hover{
+    background-color: rgb(234, 152, 0);
+}
+
+footer {
+margin-top: 4vw;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(64, 64, 64);
+height: 8.8vw;
+}
+

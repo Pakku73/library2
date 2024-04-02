@@ -1,0 +1,81 @@
+
+body{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(assets/lava.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+}
+
+.first{
+    justify-content: end;
+
+    .nav{
+        margin-top: 1vh;
+
+        a{
+            padding: 2vh;
+            text-decoration: none;
+            color: orange;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.second{
+    margin-top: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTitle{
+    margin-bottom: 1vh;
+    font-size: 6rem;
+}
+
+.search{
+    display: flex;
+
+    input{
+        padding-left: 8px;
+        height: 4vh;
+        width: 600px;
+        margin-right: 2vh;
+        outline: none;
+        border: solid rgb(201, 201, 201) 1px;
+        background-color: rgb(231, 231, 231);
+        font-size: 1rem;
+    }
+
+    input:focus{
+        border: solid black 1px;
+    }
+}
+
+#categorySelect{
+    margin-left: 2vh;
+    padding-left: 1rem;
+    background-color: rgb(39, 39, 39);
+    border: dashed orange 1px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: white;
+}
+
+.results-grid{
+    display: flex;
+}
+
+.presentation{
+    max-width: 200px;
+    margin: 4vh;
+}
